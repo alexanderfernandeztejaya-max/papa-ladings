@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variedades - Papa Andina</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      background: #f5f5dc;
+      color: #333;
+    }
+
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 { color: #2e7d32; margin-bottom: 30px; }
+
+    .grid-papas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      border-bottom: 5px solid #8d6e63;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+
+    .card p {
+      line-height: 1.6;
+      font-size: 0.95em;
+    }
+
+    .volver {
+      display: inline-block;
+      margin-top: 40px;
+      text-decoration: none;
+      background: #2e7d32;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .volver:hover { background: #1b5e20; }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Papa Andina</h1>
+</header>
+
+<div class="container">
+  <h1>Nuestras Variedades</h1>
+  <p>Conoce las papas más ricas y nutritivas de nuestra tierra:</p>
+
+  <div class="grid-papas">
+    <div class="card">
+      <h2>Papa Amarilla</h2>
+      <p>La favorita de la cocina peruana. Tiene una textura arenosa única, ideal para purés, causas y acompañar guisos.</p>
+    </div>
+
+    <div class="card">
+      <h2>Papa Canchán</h2>
+      <p>Conocida como la "papa rosada". Es versátil, deliciosa frita y mantiene su forma perfecta en los estofados.</p>
+    </div>
+
+    <div class="card">
+      <h2>Papa Huamantanga</h2>
+      <p>Una joya andina. De color amarillo intenso y sabor mantecoso. Es perfecta para sancochar y comer con salsas.</p>
+    </div>
+  </div>
+
+  <a href="index.html" class="volver">← Volver al inicio</a>
+</div>
+
+<footer>
+  <p>© 2026 Papa Andina</p>
+</footer>
+
+</body>
+</html>
